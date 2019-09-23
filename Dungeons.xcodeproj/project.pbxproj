@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5014C32A233184B8007ABDC5 /* IPV4Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014C329233184B8007ABDC5 /* IPV4Address.swift */; };
+		5014C32B233184C4007ABDC5 /* IPV4Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014C329233184B8007ABDC5 /* IPV4Address.swift */; };
+		5014C32E233261CB007ABDC5 /* TCPConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014C32D233261CB007ABDC5 /* TCPConnections.swift */; };
+		5014C32F233261D0007ABDC5 /* TCPConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5014C32D233261CB007ABDC5 /* TCPConnections.swift */; };
+		50566254231973B900769E88 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50566253231973B900769E88 /* main.swift */; };
+		505662612319790A00769E88 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505662602319790A00769E88 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5056624E231973B900769E88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5056625C2319790A00769E88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5014C329233184B8007ABDC5 /* IPV4Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPV4Address.swift; sourceTree = "<group>"; };
+		5014C32D233261CB007ABDC5 /* TCPConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnections.swift; sourceTree = "<group>"; };
+		50566250231973B900769E88 /* Dungeons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dungeons; sourceTree = BUILT_PRODUCTS_DIR; };
+		50566253231973B900769E88 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5056625E2319790A00769E88 /* DungeonClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DungeonClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		505662602319790A00769E88 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5056624D231973B900769E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5056625B2319790A00769E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5014C3282331847D007ABDC5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5014C329233184B8007ABDC5 /* IPV4Address.swift */,
+				5014C32D233261CB007ABDC5 /* TCPConnections.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		50566247231973B900769E88 = {
+			isa = PBXGroup;
+			children = (
+				50566252231973B900769E88 /* Dungeons */,
+				5056625F2319790A00769E88 /* DungeonClient */,
+				5014C3282331847D007ABDC5 /* Shared */,
+				50566251231973B900769E88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50566251231973B900769E88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50566250231973B900769E88 /* Dungeons */,
+				5056625E2319790A00769E88 /* DungeonClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50566252231973B900769E88 /* Dungeons */ = {
+			isa = PBXGroup;
+			children = (
+				50566253231973B900769E88 /* main.swift */,
+			);
+			path = Dungeons;
+			sourceTree = "<group>";
+		};
+		5056625F2319790A00769E88 /* DungeonClient */ = {
+			isa = PBXGroup;
+			children = (
+				505662602319790A00769E88 /* main.swift */,
+			);
+			path = DungeonClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5056624F231973B900769E88 /* Dungeons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50566257231973B900769E88 /* Build configuration list for PBXNativeTarget "Dungeons" */;
+			buildPhases = (
+				5056624C231973B900769E88 /* Sources */,
+				5056624D231973B900769E88 /* Frameworks */,
+				5056624E231973B900769E88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dungeons;
+			productName = Dungeons;
+			productReference = 50566250231973B900769E88 /* Dungeons */;
+			productType = "com.apple.product-type.tool";
+		};
+		5056625D2319790A00769E88 /* DungeonClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505662622319790A00769E88 /* Build configuration list for PBXNativeTarget "DungeonClient" */;
+			buildPhases = (
+				5056625A2319790A00769E88 /* Sources */,
+				5056625B2319790A00769E88 /* Frameworks */,
+				5056625C2319790A00769E88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonClient;
+			productName = DungeonClient;
+			productReference = 5056625E2319790A00769E88 /* DungeonClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50566248231973B900769E88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Max Sonderegger";
+				TargetAttributes = {
+					5056624F231973B900769E88 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5056625D2319790A00769E88 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 5056624B231973B900769E88 /* Build configuration list for PBXProject "Dungeons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50566247231973B900769E88;
+			productRefGroup = 50566251231973B900769E88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5056624F231973B900769E88 /* Dungeons */,
+				5056625D2319790A00769E88 /* DungeonClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5056624C231973B900769E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5014C32E233261CB007ABDC5 /* TCPConnections.swift in Sources */,
+				50566254231973B900769E88 /* main.swift in Sources */,
+				5014C32A233184B8007ABDC5 /* IPV4Address.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5056625A2319790A00769E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5014C32F233261D0007ABDC5 /* TCPConnections.swift in Sources */,
+				505662612319790A00769E88 /* main.swift in Sources */,
+				5014C32B233184C4007ABDC5 /* IPV4Address.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50566255231973B900769E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50566256231973B900769E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		50566258231973B900769E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L85WT654X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		50566259231973B900769E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L85WT654X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		505662632319790A00769E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L85WT654X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		505662642319790A00769E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L85WT654X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5056624B231973B900769E88 /* Build configuration list for PBXProject "Dungeons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50566255231973B900769E88 /* Debug */,
+				50566256231973B900769E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50566257231973B900769E88 /* Build configuration list for PBXNativeTarget "Dungeons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50566258231973B900769E88 /* Debug */,
+				50566259231973B900769E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505662622319790A00769E88 /* Build configuration list for PBXNativeTarget "DungeonClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505662632319790A00769E88 /* Debug */,
+				505662642319790A00769E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50566248231973B900769E88 /* Project object */;
+}
